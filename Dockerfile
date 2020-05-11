@@ -16,4 +16,4 @@ RUN set -eux \
     && pip install -r /code/requirements.txt \
     && rm -rf /root/.cache/pip
 
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8501"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "80"]

@@ -11,4 +11,5 @@ jobs:
         name: ${{ github.actor }}/aws-swarm-app/awsexample
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
+        registry: ${{ secrets.DOCKER_REGISTRY }}
         dockerfile: Dockerfile

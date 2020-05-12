@@ -2,6 +2,7 @@ version: '3.7'
 
 services:
   pyredis:
+    build: ./app
     image: docker.pkg.github.com/iwpnd/aws-swarm-app/awsexample:latest
     deploy:
       mode: replicated

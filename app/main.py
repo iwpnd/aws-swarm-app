@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from redis import Redis
 
-app = FastAPI(title="aws-swarm-app", debug=True, version="0.0.3")
+app = FastAPI(title="aws-swarm-app", debug=True, version="0.0.4")
 redis = Redis(host='redis', port=6379)
 
 @app.get("/ping")
